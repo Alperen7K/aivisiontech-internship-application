@@ -11,7 +11,7 @@ export const Section4 = () => {
   let imageContainerClass = 'border-solid border-l-2 border-white'
   return (
     <div className="my-10">
-      <div className="bg-[#0036a1]">
+      <div className="bg-gradient-to-r from-[#0036a1] to-[#0756c5ac]">
         <h1 className="py-2 text-white text-center border-solid border-b-2  border-white ">~ {text.pressName} ~</h1>
 
         <Marquee pauseOnHover={true} className="p-4 ">

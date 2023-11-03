@@ -13,7 +13,7 @@ export const Section3 = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2  gap-[25px] lg:gap-[50px] xl:gap-[100px] 2xl:gap-[150px]">
         {/* makine */}
         <div className="group h-[270px] w-[250px] lg:h-[370px] lg:w-[350px] [perspective:1000px] ">
-          <div className="relative bg-[#0036a1] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div className="relative bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             {/* ön yüz */}
             <div className="absolute inset-0 flex flex-col justify-between items-center shadow-xl shadow-black/70">
               <img src={machineLearning} className="my-3 w-[200px] lg:w-[300px]     " />
@@ -31,7 +31,7 @@ export const Section3 = () => {
         </div>
         {/* yapay zeka */}
         <div className="group h-[270px] w-[250px] lg:h-[370px] lg:w-[350px] [perspective:1000px] ">
-          <div className="relative bg-[#0036a1] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div className="relative bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             {/* ön yüz */}
             <div className="absolute inset-0 flex flex-col justify-between items-center shadow-xl shadow-black/70">
               <img src={artificle} className="my-3 w-[200px] lg:w-[300px]    " />
@@ -49,7 +49,7 @@ export const Section3 = () => {
         </div>
         {/* termal */}
         <div className="group h-[270px] w-[250px] lg:h-[370px] lg:w-[350px] [perspective:1000px] ">
-          <div className="relative bg-[#0036a1] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div className="relative bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             {/* ön yüz */}
             <div className="absolute inset-0 flex flex-col justify-between items-center shadow-xl shadow-black/70">
               <img src={termal} className="my-3 w-[200px] lg:w-[300px]     " />
@@ -67,7 +67,7 @@ export const Section3 = () => {
         </div>
         {/* GÖRÜNTÜLEME */}
         <div className="group h-[270px] w-[250px] lg:h-[370px] lg:w-[350px] [perspective:1000px]">
-          <div className="relative bg-[#0036a1] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div className="relative bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] h-full w-full shadow-xl transition-all duration-[1000ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             {/* ön yüz */}
             <div className="absolute inset-0 flex flex-col justify-between items-center shadow-xl shadow-black/70">
               <img src={hiperspektral} className="my-3 w-[200px] lg:w-[300px]    " />

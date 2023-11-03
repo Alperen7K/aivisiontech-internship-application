@@ -7,7 +7,7 @@ export const Footer = () => {
 
   let labelCss = 'text-center'
   return (
-    <div className="flex flex-col items-center justify-center w-full bg-[#0036a1] text-white">
+    <div className="flex flex-col items-center justify-center w-full bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] text-white">
       <img className="w-[200px] lg:w-[400px] my-6" src={logo} />
       <div className="flex flex-col lg:flex-row items-center justify-around w-full px-10">
         <div className="flex flex-col items-center justify-center">

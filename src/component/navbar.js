@@ -88,7 +88,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-30 backdrop-blur-sm h-[100px] lg:h-[125px] w-full bg-[#0036a1] flex items-center justify-center  font-bold border-solid border-b-2 border-white">
+      <div className="sticky top-0 z-30 backdrop-blur-sm h-[100px] lg:h-[100px] w-full  bg-gradient-to-r from-[#0036a1] to-[#0756c5ac] flex items-center justify-center  font-bold border-solid border-b-2 border-white">
         <div className="h-full sm:w-[98vw] w-full flex  items-center justify-around xl:justify-between">
           <img src={logo} alt="Logo" className="w-[150px] lg:mt-10 xl:mt-0 sm:w-[180px] lg:w-[200px] 2xl:w-[250px] hover:scale-[1.1] delay-100 duration-300" />
 
@@ -99,7 +99,7 @@ export const NavBar = () => {
               })}
             </div>
             <div className="flex justify-end ">
-              <div className="w-[55px] h-[26px] mr-[15px] mb-4 xl:mb-0 xl:ml-4  lg:flex items-center justify-between bg-black/50 rounded-[12px] hover:scale-[1.1] delay-100 duration-300">
+              <div className="w-[55px] h-[26px] mr-[15px] mb-4 xl:mb-0 xl:ml-4  lg:flex items-center justify-between bg-[#1d3960ac] rounded-[12px] hover:scale-[1.1] delay-100 duration-300">
                 <img
                   onClick={() => {
                     setIsTurkish(true)

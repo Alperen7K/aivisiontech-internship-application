@@ -19,12 +19,12 @@
 
 @media (min-width: 1024px) {
   .radial-gradient {
-    background: radial-gradient(circle at left center , #0036a1 40vh, transparent 100vh)
+    background: radial-gradient(circle at left center , #0036a1 40vh, #0756c5ac 100vh)
   }
 }
 @media (min-width: 1280px) {
   .radial-gradient {
-    background: radial-gradient(circle at left center , #0036a1 50vh, transparent 100vh)
+    background: radial-gradient(circle at left center , #0036a1 50vh, #0756c5ac 100vh)
   }
 }
 /* 0036a1 */
