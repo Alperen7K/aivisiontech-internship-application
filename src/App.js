@@ -1,10 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import { Router } from "./router";
 
 function App() {
   return (
-    <div className="h-[100vh] w-[100vw] flex justify-center items-center text-[40vh] text-green-700">
-      alpi7k denemeee
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
