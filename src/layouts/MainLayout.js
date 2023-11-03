@@ -9,13 +9,10 @@ export const MainLayout = () => {
     <>
       <Helmet>
         <html className="m-0 p-0" />
-        <body
-          className="min-h-full  box-border  antialiased
-  radial-gradient"
-        />
+        <body className="min-h-full  box-border  antialiased" />
       </Helmet>
       <Outlet />
     </>
-  );
+  )
 };
 // bg-gradient-to-r from-[#000033] from-3%  via-[#0099ff] to-[#000033] to-97%

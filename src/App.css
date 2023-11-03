@@ -12,6 +12,31 @@
   }
 }
 
+.rightToLeft {
+
+  animation: kaydir1 1s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .radial-gradient {
+    background: radial-gradient(circle at left center , #0036a1 40vh, transparent 100vh)
+  }
+}
+@media (min-width: 1280px) {
+  .radial-gradient {
+    background: radial-gradient(circle at left center , #0036a1 50vh, transparent 100vh)
+  }
+}
+/* 0036a1 */
+@keyframes kaydir1 {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
 .flip-card {
   background-color: transparent;
   width: 250px;
