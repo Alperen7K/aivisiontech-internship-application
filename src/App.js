@@ -1,13 +1,16 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Router } from "./router";
+import { UiContextProvider } from './context'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Router />
-    </BrowserRouter>
-  );
+    <UiContextProvider>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </UiContextProvider>
+  )
 }
 
 export default App;
